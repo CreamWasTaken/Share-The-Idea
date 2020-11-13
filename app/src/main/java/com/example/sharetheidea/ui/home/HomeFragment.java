@@ -46,6 +46,7 @@ public class HomeFragment extends Fragment {
                     @Override
                     public void onClick(View v) {
                         Intent i = new Intent(root.getContext(), Find.class);
+                        //tae
                         startActivity(i);
                     }
                 });
